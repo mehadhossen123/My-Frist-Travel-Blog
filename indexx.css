@@ -21,3 +21,21 @@
  h1{
     text-align: center;
  }
+ #id{
+    color: blue;
+ }
+ .header{
+    background-image: url('https://thumbs.dreamstime.com/b/world-landmarks-photo-collage-isolated-white-background-travel-tourism-study-around-world-concept-94753893.jpg?w=1400');
+    width: 100%px;
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+ }
+ .header h1{
+    font-size: 100px;
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(42, 67, 165);
+ }
