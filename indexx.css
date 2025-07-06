@@ -39,3 +39,49 @@
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(42, 67, 165);
  }
+ .add{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 60px;
+    justify-content: center;
+    padding-top: 80px;
+ }
+.place1 {
+border: 5px solid blue;
+padding-left: 20px;
+text-align: center;
+margin-left: 50px;
+margin-right: 50px;
+}
+.place2{
+    border: 5px solid rgb(0, 255, 174);
+    margin-right: 50px;
+    text-align: center;
+}
+.place3{
+    border: 5px solid rgb(255, 0, 72);
+    margin-right: 50px;
+    text-align: center;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+
+}
+img{
+
+    width: 300px;
+    height: 300px;
+    box-shadow: brown;
+    
+}
+.to{
+    margin-left: 200px;
+    
+}
+figcaption{
+    text-align: center
+    ;
+    text-shadow: 0cap salmon ;
+}
