@@ -1,0 +1,39 @@
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.card{
+    width: 200px;
+    border: 2px solid yellowgreen;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    margin-right: 20px;
+    margin-top: 30px;
+   
+}
+.card:hover{
+    background-color: aqua;
+}
+ .card button{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+    
+.card img{
+    width:100%;
+    border-radius: 20px;
+    
+}
+.card-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap:wrap;
+}
+.card-section h1 {
+    font-size: 3em;
+
+}
+
+

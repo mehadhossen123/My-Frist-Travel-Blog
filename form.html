@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Make </title>
+    <style>
+       .id{
+        display: block;
+        margin-bottom: 20px;
+        
+       }
+       .fild{
+        background-color: antiquewhite;
+        width: 50%;
+       }
+        table{
+            margin-top: 30px;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        td{
+          border: ipx solid black;
+          padding: 20px 20px ;
+        }
+        th{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1> The fieldset element + CSS </h1>
+    <main>
+        <div class="fild">
+            <fieldset class="basic info">
+               <legend> Personal Information </legend> 
+               <div class="id">
+            <label for="Name"> First Name </label>
+            <input type="text" name="Name " id=" input_name ">
+            </div>
+            <div class="id">
+            <label for="Name"> Last  Name </label>
+            <input type="text" name="Name " id=" input_name ">
+            </div>
+            <div class="id">
+            <label for="email"> E-mail</label>
+            <input type="Email" name="name " id="input-email">
+            </div>
+            <div class="id">
+            <label for="Birthday "> Birthday</label>
+            <input type="date" name="Birthday" id=" Birthday">
+            </div>
+            <div class="id">
+            <input type="button" value=" Submit ">
+            </div>
+            </fieldset>
+            
+        </div>
+<div>
+    <table border="2">
+        <head>
+            <tr>
+                <th>First Name </th>
+                <th>Last Name </th>
+                <th>Age</th>
+            </tr>
+        </head>
+        
+        <tbody>
+        <tr>
+            <td>Mehad Hossen </td>
+            <td>Shuma begum </td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Mehad Hossen </td>
+            <td>Shuma begum </td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Mehad Hossen </td>
+            <td>Shuma begum </td>
+            <td>41</td>
+        </tr>
+        </tbody>
+        <tfoot> <td>total student </td></tfoot>
+    </table>
+</div>
+
+
+
+
+
+    </main>
+</body>
+</html>
